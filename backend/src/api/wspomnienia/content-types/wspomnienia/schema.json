@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "wspomnienias",
+  "info": {
+    "singularName": "wspomnienia",
+    "pluralName": "wspomnienias",
+    "displayName": "wspomnienia"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Tytul": {
+      "type": "string"
+    },
+    "Opis": {
+      "type": "text"
+    },
+    "Data": {
+      "type": "date"
+    },
+    "Zdjecie": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
